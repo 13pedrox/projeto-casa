@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@font-face {
+    font-family: 'brush';
+    src: url(fontes/DK\ Magical\ Brush.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'handw';
+    src: url(fontes/WorldDiscovery_PERSONAL_USE_ONLY.otf) format(opentype);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor1: #deb887;
+    --cor2: #7ce577;
+    --cor3: #315c2b;
+    --cor4: #274029;
+    --cor5: #1f0318;
+    --fonte1: 'Lilita One', cursive;
+    --fonte2: 'brush';
+    --fonte3: 'handw';
+}
+
+body {
+    background-color: #7ce577;
+    background-image: url(imagens/textura3.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+}
+
+header {
+    height: 100px;
+    background-color: #deb887;
+    box-shadow: 0px 3px 15px;
+    background-image: url(imagens/textura.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+header > h1 {
+    position: absolute;
+    display: inline;
+    color: var(--cor3);
+    font-size: 4em;
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 10px;
+    max-width: 370px;
+    top: 4px;
+}
+
+div {
+    display: inline;
+}
+
+div > img {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    background-color: rgb(240, 240, 240);
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: inset 0px 3px 15px black;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+main > h1 {
+    font-family: var(--fonte3);
+    color: #315c2bad;
+    text-indent: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+article {
+    display: block;
+    margin: auto;
+    width: 63.5vw;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+article > img {
+    border: 2px dashed black;
+    margin: 10px;
+}
