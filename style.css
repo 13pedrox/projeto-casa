@@ -106,5 +106,10 @@ article {
 
 article > img {
     border: 2px dashed black;
-    margin: 10px;
+    margin-bottom: 34px;
+}
+
+.meio {
+    margin-left: 34px;
+    margin-right: 34px;
 }
